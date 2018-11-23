@@ -4,11 +4,11 @@
     "keywords": ["util", "functional", "server", "client", "browser"],
     "author": "CARLOS",
     "contributors": [],
-    "dependencies": {}
-   },
+    "dependencies": {},
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
         }
+   }
