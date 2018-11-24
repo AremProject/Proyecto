@@ -6,6 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="refresh" content="5;URL=http://www.google.com/"
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,6 +26,12 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
+    <script>
+        function redireccionar(){
+            document.location.href="https://www.google.com/";
+        }
+    redireccionar();
+    </script>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -56,7 +64,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Bienvenido a Virtualbank</h1>
-        <button type="submit" href="activities.ejs" class="btn btn-success" >prueba</button>
+        <button type="submit" onclick="redireccionar()" class="btn btn-success" >prueba</button>
         <p>La facilidad de un banco en la nube</p>
       </div>
     </div>
